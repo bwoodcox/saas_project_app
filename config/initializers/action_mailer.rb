@@ -1,5 +1,5 @@
 ActionMailer::Base.smtp_settings = {
-  domain: 'heroku.com',
+  domain:         'heroku.com',
   address:        "smtp.sendgrid.net",
   port:            587,
   authentication: :plain,
